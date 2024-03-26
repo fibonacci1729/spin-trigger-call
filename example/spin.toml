@@ -1,0 +1,13 @@
+spin_manifest_version = 2
+
+[application]
+name = "example"
+version = "0.1.0"
+
+[[trigger.call]]
+component = "guest"
+
+[component.guest]
+source = "target/wasm32-wasi/release/guest.wasm"
+[component.guest.build]
+command = "cargo component build --release"

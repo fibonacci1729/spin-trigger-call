@@ -1,0 +1,18 @@
+[package]
+name = "trigger-call"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+async-trait = "0.1"
+clap = { version = "3.1.15", features = ["derive", "env"] }
+indexmap = "1"
+serde = "1.0"
+spin-core = { git = "https://github.com/fermyon/spin", tag = "v2.3.1" }
+spin-trigger = { git = "https://github.com/fermyon/spin", tag = "v2.3.1" }
+tokio = { version = "1.23", features = ["full"] }
+tracing = { version = "0.1", features = ["log"] }
+tracing-subscriber = { version = "0.3.7", features = ["env-filter"] }
+wasmtime = { version = "18.0.1" }
+wasm-wave = "0.5.1"

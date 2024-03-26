@@ -1,0 +1,1 @@
+/Users/brianh/fibonacci1729/spin-trigger-call/example/target/wasm32-wasi/release/guest.wasm: /Users/brianh/fibonacci1729/spin-trigger-call/example/src/bindings.rs /Users/brianh/fibonacci1729/spin-trigger-call/example/src/lib.rs
